@@ -1,0 +1,10 @@
+{
+  "name": "runway-aleph",
+  "version": "0.2.1",
+  "description": "RunAPI Runway Aleph skill for Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents",
+  "skills": [
+    {
+      "path": "skills/runway-aleph/SKILL.md"
+    }
+  ]
+}
