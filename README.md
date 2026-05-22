@@ -1,6 +1,23 @@
-# Runway Aleph API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/runway-aleph">
+    <h3 align="center">Runway Aleph API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect Runway Aleph fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/runway-aleph.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/runway-aleph"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/runway-aleph-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/runway-aleph)](https://skills.sh/runapi-ai/runway-aleph)
+
+</div>
+<br/>
 
 Transform video with Runway Aleph video-to-video style transfer. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Runway Aleph through RunAPI.
 
