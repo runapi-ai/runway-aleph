@@ -1,5 +1,7 @@
 # Runway Aleph API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/runway-aleph)](https://skills.sh/runapi-ai/runway-aleph)
+
 Transform video with Runway Aleph video-to-video style transfer. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Runway Aleph through RunAPI.
 
 The canonical agent file is `skills/runway-aleph/SKILL.md`.
@@ -32,13 +34,13 @@ const url = result.videos[0].url;
 - Product docs: https://runapi.ai/docs#runway-aleph
 - SDK docs: https://runapi.ai/docs#sdk-runway-aleph
 - SDK repository: https://github.com/runapi-ai/runway-aleph-sdk
-- Pricing and rate limits: https://runapi.ai/models/runway-aleph/runway-aleph
+- Pricing and rate limits: https://runapi.ai/models/runway-aleph
 - Provider comparison: https://runapi.ai/providers/runway
 - Browse all RunAPI models and skills: https://runapi.ai/models
 
 ## Variants
 
-- [Runway Aleph](https://runapi.ai/models/runway-aleph/runway-aleph)
+- [Runway Aleph](https://runapi.ai/models/runway-aleph)
 
 ## Agent rules
 

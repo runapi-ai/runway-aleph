@@ -4,6 +4,17 @@ description: Transform video with Runway Aleph video-to-video through RunAPI.ai 
 documentation: https://runapi.ai/models/runway-aleph
 provider_page: https://runapi.ai/providers/runway
 catalog: https://runapi.ai/models
+metadata:
+  openclaw:
+    homepage: https://runapi.ai/models/runway-aleph
+    primaryEnv: RUNAPI_API_KEY
+    requires:
+      env:
+      - RUNAPI_API_KEY
+    envVars:
+    - name: RUNAPI_API_KEY
+      required: true
+      description: RunAPI API key from https://runapi.ai/api_keys.
 ---
 # @runapi.ai/runway-aleph -- RunAPI.ai Runway Aleph video-to-video
 
@@ -19,7 +30,7 @@ npm install @runapi.ai/runway-aleph
 
 ```dotenv
 # .env
-RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/settings/api_keys
+RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/api_keys
 ```
 
 ```ts
@@ -61,6 +72,6 @@ All errors are re-exported from `@runapi.ai/core`. Use `instanceof` checks inste
 runway aleph api public links use the API-379 catalog route map. The main runway aleph api page is https://runapi.ai/models/runway-aleph. SDK docs live at https://runapi.ai/docs#sdk-runway-aleph and product docs live at https://runapi.ai/docs#runway-aleph.
 
 Pricing, rate limits, and commercial usage for runway aleph api should point to the most specific variant page:
-- [Runway Aleph](https://runapi.ai/models/runway-aleph/runway-aleph)
+- [Runway Aleph](https://runapi.ai/models/runway-aleph)
 
 Compare Runway Aleph with other Runway models at https://runapi.ai/providers/runway. Browse every RunAPI model and skill at https://runapi.ai/models. SDK repository: https://github.com/runapi-ai/runway-aleph-sdk. Skill repository: https://github.com/runapi-ai/runway-aleph.
