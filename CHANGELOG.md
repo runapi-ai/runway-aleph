@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0](https://github.com/runapi-ai/runway-aleph/releases/tag/v0.3.0) - 2026-10-15
+
+### Removed
+- Remove new-task creation recipes from the retired Runway Aleph skill.
+  Migration: Do not create or retry Aleph tasks; new requests return HTTP 410. Use the CLI or SDK task-status method to query existing task IDs. No automatic model replacement is provided.
+
+
 ## [v0.2.9](https://github.com/runapi-ai/runway-aleph/releases/tag/v0.2.9) - 2026-08-12
 
 ### Changed
